@@ -1,0 +1,19 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/alex1/Makers/Tech_Tests/tic-tac-toe/spec/game_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/alex1/Makers/Tech_Tests/tic-tac-toe/lib/game.rb": [
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1512043427
+  }
+}
