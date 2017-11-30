@@ -8,4 +8,8 @@ class Game
               [nil,nil,nil]]
   end
 
+  def update_board(row, column, value)
+    @board[row][column] = value
+  end
+
 end
