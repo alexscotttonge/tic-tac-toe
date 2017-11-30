@@ -1,15 +1,9 @@
 class Game
 
-  attr_reader :board
-
-  def initialize
-    @board = "
-                               |  |
-                            ----------
-                               |  |
-                            ----------
-                               |  |"
-
+  def display_board
+      [[0,0,0],
+       [0,0,0],
+       [0,0,0]]
   end
 
 end
