@@ -5,9 +5,7 @@ describe Game do
   let(:game) { described_class.new }
 
   it 'displays an empty board' do
-    expect(game.board).to eq [[nil, nil, nil],
-                              [nil, nil, nil],
-                              [nil, nil, nil]]
+    expect(game.board).to be_an_instance_of(Array)
   end
 
   describe '#update_board' do
