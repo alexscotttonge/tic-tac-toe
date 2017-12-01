@@ -11,13 +11,12 @@ class Game
   def update_board(row, column, value)
     @board[row][column] = value
     game_over_x
+    game_over_y
   end
 
   def game_over_x
     @board.map do |row|
-      if row == ['X','X','X']
-        return 'X winna'
-      end
+      return 'X winna' if row == ['X','X','X']
     end
   end
 
