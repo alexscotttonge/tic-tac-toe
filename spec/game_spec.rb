@@ -15,15 +15,24 @@ describe Game do
     end
   end
 
-  describe '#game_over' do
+  describe '#game_over_x' do
     it 'finishes the game after 3 in a row for player X' do
       game.update_board(0, 0, 'X')
       game.update_board(1, 1, 'O')
       game.update_board(0, 1, 'X')
       game.update_board(1, 2, 'O')
       game.update_board(0, 2, 'X')
-      expect(game.game_over).to eq 'X winna'
+      expect(game.game_over_x).to eq 'X winna'
     end
+
+    # it 'finishes the game after 3 in a row for player O' do
+    #   game.update_board(0, 0, 'O')
+    #   game.update_board(1, 1, 'X')
+    #   game.update_board(0, 1, 'O')
+    #   game.update_board(1, 2, 'X')
+    #   game.update_board(0, 2, 'O')
+    #   expect(game.game_over).to eq 'O winna'
+    # end
   end
 
 

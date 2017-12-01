@@ -31,6 +31,15 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/alex1/Makers/Tech_Tests/tic-tac-toe/lib/game.rb": [
@@ -54,8 +63,8 @@
         7,
         17,
         2,
-        15,
-        0,
+        null,
+        null,
         null,
         null,
         null,
@@ -64,6 +73,6 @@
         null
       ]
     },
-    "timestamp": 1512141110
+    "timestamp": 1512142045
   }
 }
