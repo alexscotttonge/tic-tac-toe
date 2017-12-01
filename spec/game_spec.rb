@@ -11,9 +11,7 @@ describe Game do
   describe '#update_board' do
     it 'updates a field with a value' do
       game.update_board(1, 1, 'X')
-      expect(game.board).to eq [[nil, nil, nil],
-                                [nil, 'X', nil],
-                                [nil, nil, nil]]
+      expect(game.board[1][1]).to eq 'X'
     end
   end
 
