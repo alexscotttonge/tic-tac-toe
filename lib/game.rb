@@ -11,15 +11,18 @@ class Game
   def update_board(row, column, value)
     @board[row][column] = value
     game_over
-    @board
+    # @board
   end
 
   def game_over
-    if @board == [["X", "X", "X"],
-                  [nil, "O", "O"],
-                  [nil, nil, nil]]
-        'Playa one wins'
+    @board.map do |row|
+      if row == ['X','X','X']
+        return 'X winna'
+      elsif row == ['O','O','O']
+        'O winna'
+      end
     end
+
   end
 
 end
